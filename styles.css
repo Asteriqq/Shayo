@@ -244,3 +244,26 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+/*Start media query*/
+@media (max-width: 477px) {
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #blog .blog-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+    }
+}
